@@ -21,11 +21,11 @@ var config = {
                     cacheDirectory: true,
                     presets: ['env', 'react', 'es2015']
                 }
+            },
+            {
+                test: /\.css$/,
+                loader: "style-loader!css-loader"
             }
-            // {
-            //     test: /\.css$/,
-            //     loader: "style-loader!css-loader"
-            // }
         ],
     },
     devtool: 'source-map',

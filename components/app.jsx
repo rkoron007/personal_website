@@ -1,9 +1,11 @@
 import React from "React";
+import {Switch, Route} from "react-router-dom";
 
-class PersonalBox extends React.Component {
+export default class App extends React.Component {
     render(){
         return (
             <div>Hello</div>
         );
     }
 }
+
